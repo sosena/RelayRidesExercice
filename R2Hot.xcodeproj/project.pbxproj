@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49DD6BC41BDD9B7400A3B520 /* WebRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DD6BC31BDD9B7400A3B520 /* WebRequest.m */; };
+		49DF42F11BE34C00005CE1A8 /* CarInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF42F01BE34C00005CE1A8 /* CarInformation.m */; };
+		49DF42F41BE34C21005CE1A8 /* CarDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF42F31BE34C21005CE1A8 /* CarDetails.m */; };
+		49E730A81BE2FA7500E343E5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E730A71BE2FA7500E343E5 /* MBProgressHUD.m */; };
+		49E730AC1BE2FA8000E343E5 /* RKDropdownAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E730AB1BE2FA8000E343E5 /* RKDropdownAlert.m */; };
+		49E730AF1BE330B500E343E5 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E730AD1BE330B500E343E5 /* libxml2.2.dylib */; };
+		49E730B01BE330B500E343E5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E730AE1BE330B500E343E5 /* libxml2.dylib */; };
+		49E730B51BE3318A00E343E5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 49E730B21BE3318A00E343E5 /* README.md */; };
+		49E730B61BE3318A00E343E5 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E730B41BE3318A00E343E5 /* XMLReader.m */; };
 		49EBE26B1BDC27E200CA04B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EBE26A1BDC27E200CA04B0 /* main.m */; };
 		49EBE26E1BDC27E200CA04B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EBE26D1BDC27E200CA04B0 /* AppDelegate.m */; };
 		49EBE2711BDC27E200CA04B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EBE2701BDC27E200CA04B0 /* ViewController.m */; };
@@ -14,6 +23,7 @@
 		49EBE2761BDC27E200CA04B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EBE2751BDC27E200CA04B0 /* Images.xcassets */; };
 		49EBE2791BDC27E200CA04B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EBE2771BDC27E200CA04B0 /* LaunchScreen.xib */; };
 		49EBE2851BDC27E300CA04B0 /* R2HotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EBE2841BDC27E300CA04B0 /* R2HotTests.m */; };
+		49EBE2901BDC2AC500CA04B0 /* ShoppingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EBE28F1BDC2AC500CA04B0 /* ShoppingResult.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49DD6BC21BDD9AA700A3B520 /* WebRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebRequest.h; sourceTree = "<group>"; };
+		49DD6BC31BDD9B7400A3B520 /* WebRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebRequest.m; sourceTree = "<group>"; };
+		49DF42EF1BE34C00005CE1A8 /* CarInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarInformation.h; sourceTree = "<group>"; };
+		49DF42F01BE34C00005CE1A8 /* CarInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarInformation.m; sourceTree = "<group>"; };
+		49DF42F21BE34C21005CE1A8 /* CarDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarDetails.h; sourceTree = "<group>"; };
+		49DF42F31BE34C21005CE1A8 /* CarDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarDetails.m; sourceTree = "<group>"; };
+		49E730A61BE2FA7500E343E5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		49E730A71BE2FA7500E343E5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		49E730A91BE2FA8000E343E5 /* RKDropdownAlert-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RKDropdownAlert-Prefix.pch"; sourceTree = "<group>"; };
+		49E730AA1BE2FA8000E343E5 /* RKDropdownAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKDropdownAlert.h; sourceTree = "<group>"; };
+		49E730AB1BE2FA8000E343E5 /* RKDropdownAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKDropdownAlert.m; sourceTree = "<group>"; };
+		49E730AD1BE330B500E343E5 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		49E730AE1BE330B500E343E5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		49E730B21BE3318A00E343E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		49E730B31BE3318A00E343E5 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		49E730B41BE3318A00E343E5 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		49EBE2651BDC27E200CA04B0 /* R2Hot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = R2Hot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EBE2691BDC27E200CA04B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49EBE26A1BDC27E200CA04B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +66,8 @@
 		49EBE27E1BDC27E300CA04B0 /* R2HotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = R2HotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EBE2831BDC27E300CA04B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49EBE2841BDC27E300CA04B0 /* R2HotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R2HotTests.m; sourceTree = "<group>"; };
+		49EBE28E1BDC2AC500CA04B0 /* ShoppingResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingResult.h; path = ../ShoppingResult.h; sourceTree = "<group>"; };
+		49EBE28F1BDC2AC500CA04B0 /* ShoppingResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingResult.m; path = ../ShoppingResult.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E730AF1BE330B500E343E5 /* libxml2.2.dylib in Frameworks */,
+				49E730B01BE330B500E343E5 /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +90,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49DA33991BE4045100F1F833 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49E730A91BE2FA8000E343E5 /* RKDropdownAlert-Prefix.pch */,
+				49E730AA1BE2FA8000E343E5 /* RKDropdownAlert.h */,
+				49E730AB1BE2FA8000E343E5 /* RKDropdownAlert.m */,
+				49E730A61BE2FA7500E343E5 /* MBProgressHUD.h */,
+				49E730A71BE2FA7500E343E5 /* MBProgressHUD.m */,
+				49E730B11BE3318A00E343E5 /* XMLReader */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49E730B11BE3318A00E343E5 /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				49E730B21BE3318A00E343E5 /* README.md */,
+				49E730B31BE3318A00E343E5 /* XMLReader.h */,
+				49E730B41BE3318A00E343E5 /* XMLReader.m */,
+			);
+			name = XMLReader;
+			path = ../../XMLReader;
+			sourceTree = "<group>";
+		};
 		49EBE25C1BDC27E200CA04B0 = {
 			isa = PBXGroup;
 			children = (
+				49E730AD1BE330B500E343E5 /* libxml2.2.dylib */,
+				49E730AE1BE330B500E343E5 /* libxml2.dylib */,
 				49EBE2671BDC27E200CA04B0 /* R2Hot */,
 				49EBE2811BDC27E300CA04B0 /* R2HotTests */,
 				49EBE2661BDC27E200CA04B0 /* Products */,
@@ -81,14 +137,23 @@
 		49EBE2671BDC27E200CA04B0 /* R2Hot */ = {
 			isa = PBXGroup;
 			children = (
+				49DA33991BE4045100F1F833 /* Supporting Files */,
 				49EBE26C1BDC27E200CA04B0 /* AppDelegate.h */,
 				49EBE26D1BDC27E200CA04B0 /* AppDelegate.m */,
 				49EBE26F1BDC27E200CA04B0 /* ViewController.h */,
 				49EBE2701BDC27E200CA04B0 /* ViewController.m */,
+				49EBE28E1BDC2AC500CA04B0 /* ShoppingResult.h */,
+				49EBE28F1BDC2AC500CA04B0 /* ShoppingResult.m */,
+				49DD6BC21BDD9AA700A3B520 /* WebRequest.h */,
+				49DD6BC31BDD9B7400A3B520 /* WebRequest.m */,
 				49EBE2721BDC27E200CA04B0 /* Main.storyboard */,
 				49EBE2751BDC27E200CA04B0 /* Images.xcassets */,
 				49EBE2771BDC27E200CA04B0 /* LaunchScreen.xib */,
 				49EBE2681BDC27E200CA04B0 /* Supporting Files */,
+				49DF42EF1BE34C00005CE1A8 /* CarInformation.h */,
+				49DF42F01BE34C00005CE1A8 /* CarInformation.m */,
+				49DF42F21BE34C21005CE1A8 /* CarDetails.h */,
+				49DF42F31BE34C21005CE1A8 /* CarDetails.m */,
 			);
 			path = R2Hot;
 			sourceTree = "<group>";
@@ -220,8 +285,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				49EBE2711BDC27E200CA04B0 /* ViewController.m in Sources */,
+				49DF42F11BE34C00005CE1A8 /* CarInformation.m in Sources */,
+				49E730A81BE2FA7500E343E5 /* MBProgressHUD.m in Sources */,
 				49EBE26E1BDC27E200CA04B0 /* AppDelegate.m in Sources */,
+				49EBE2901BDC2AC500CA04B0 /* ShoppingResult.m in Sources */,
 				49EBE26B1BDC27E200CA04B0 /* main.m in Sources */,
+				49DF42F41BE34C21005CE1A8 /* CarDetails.m in Sources */,
+				49E730AC1BE2FA8000E343E5 /* RKDropdownAlert.m in Sources */,
+				49E730B51BE3318A00E343E5 /* README.md in Sources */,
+				49E730B61BE3318A00E343E5 /* XMLReader.m in Sources */,
+				49DD6BC41BDD9B7400A3B520 /* WebRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +485,7 @@
 				49EBE28A1BDC27E300CA04B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49EBE28B1BDC27E300CA04B0 /* Build configuration list for PBXNativeTarget "R2HotTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +494,7 @@
 				49EBE28D1BDC27E300CA04B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

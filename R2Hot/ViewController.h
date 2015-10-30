@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ShoppingResult.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate, ShoppingResultDelegate>
+@property (strong, nonatomic) IBOutlet UILabel *dropOffTime;
+@property (strong, nonatomic) IBOutlet UILabel *location;
+@property (strong, nonatomic) IBOutlet UILabel *link;
+@property (strong, nonatomic) IBOutlet UILabel *dropOffDay;
+@property (strong, nonatomic) IBOutlet UILabel *price;
+@property (strong, nonatomic) IBOutlet UIButton *getBtn;
+- (IBAction)getInfo:(id)sender;
 
 
 @end
