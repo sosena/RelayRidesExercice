@@ -110,6 +110,9 @@ NSString *pickUpTime;
 -(void)didReceiveResults:(NSMutableArray *)carInfo
 {
     [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+    /*if([self checkInput]){
+        [self performSegueWithIdentifier:@"showResult" sender:carInfo];
+    }*/
     
    [self performSegueWithIdentifier:@"showResult" sender:carInfo];
     //self.price = [carInfo ]
@@ -158,6 +161,7 @@ NSString *pickUpTime;
 -(void)stopProgressHUD:(NSString *)errorMessage
 {
     [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+    // NSString *temp = [error userInfo][@"error"];
     [RKDropdownAlert title:@"Error" message:errorMessage backgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"photoColor"]] textColor:[UIColor whiteColor] time:4.0];
 }
 

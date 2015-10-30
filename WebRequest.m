@@ -41,7 +41,7 @@
         NSString *key = parameterKeys[i];
         NSString *value = self.parameters[key];
         NSString *appendingString = [NSString stringWithFormat:@"%@=%@", key, value];
-
+       // urlString = [urlString stringByAppendingString:[NSString stringWithFormat:@"%@=%@", key, value]];
         urlString = [urlString stringByAppendingString:appendingString];
     }
     
@@ -99,9 +99,14 @@
                 }else{
      
                     [self.delegate didHaveError:jsonerror] ;
+                    //[MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+                   // NSString *temp = [error userInfo][@"error"];
 
                 }
-
+              /*  NSError *parseError = nil;
+                NSDictionary *xmlDictionary = [XMLReader dictionaryForXMLString:testXMLString error:&parseError];
+                NSLog(@" %@", xmlDictionary);*/
+                //block(response,json, error);
             }
             
         });

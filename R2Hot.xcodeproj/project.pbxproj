@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49DA339B1BE40FF200F1F833 /* ShoppingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA339A1BE40FF200F1F833 /* ShoppingResult.m */; };
+		49DA339F1BE4104C00F1F833 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA339E1BE4104C00F1F833 /* XMLReader.m */; };
 		49DD6BC41BDD9B7400A3B520 /* WebRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DD6BC31BDD9B7400A3B520 /* WebRequest.m */; };
 		49DF42F11BE34C00005CE1A8 /* CarInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF42F01BE34C00005CE1A8 /* CarInformation.m */; };
 		49DF42F41BE34C21005CE1A8 /* CarDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF42F31BE34C21005CE1A8 /* CarDetails.m */; };
@@ -14,8 +16,6 @@
 		49E730AC1BE2FA8000E343E5 /* RKDropdownAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E730AB1BE2FA8000E343E5 /* RKDropdownAlert.m */; };
 		49E730AF1BE330B500E343E5 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E730AD1BE330B500E343E5 /* libxml2.2.dylib */; };
 		49E730B01BE330B500E343E5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E730AE1BE330B500E343E5 /* libxml2.dylib */; };
-		49E730B51BE3318A00E343E5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 49E730B21BE3318A00E343E5 /* README.md */; };
-		49E730B61BE3318A00E343E5 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E730B41BE3318A00E343E5 /* XMLReader.m */; };
 		49EBE26B1BDC27E200CA04B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EBE26A1BDC27E200CA04B0 /* main.m */; };
 		49EBE26E1BDC27E200CA04B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EBE26D1BDC27E200CA04B0 /* AppDelegate.m */; };
 		49EBE2711BDC27E200CA04B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EBE2701BDC27E200CA04B0 /* ViewController.m */; };
@@ -23,7 +23,6 @@
 		49EBE2761BDC27E200CA04B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EBE2751BDC27E200CA04B0 /* Images.xcassets */; };
 		49EBE2791BDC27E200CA04B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EBE2771BDC27E200CA04B0 /* LaunchScreen.xib */; };
 		49EBE2851BDC27E300CA04B0 /* R2HotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EBE2841BDC27E300CA04B0 /* R2HotTests.m */; };
-		49EBE2901BDC2AC500CA04B0 /* ShoppingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EBE28F1BDC2AC500CA04B0 /* ShoppingResult.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49DA339A1BE40FF200F1F833 /* ShoppingResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingResult.m; sourceTree = "<group>"; };
+		49DA339C1BE4100B00F1F833 /* ShoppingResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingResult.h; sourceTree = "<group>"; };
+		49DA339D1BE4104C00F1F833 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLReader.h; path = ../../../XMLReader/XMLReader.h; sourceTree = "<group>"; };
+		49DA339E1BE4104C00F1F833 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLReader.m; path = ../../../XMLReader/XMLReader.m; sourceTree = "<group>"; };
 		49DD6BC21BDD9AA700A3B520 /* WebRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebRequest.h; sourceTree = "<group>"; };
 		49DD6BC31BDD9B7400A3B520 /* WebRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebRequest.m; sourceTree = "<group>"; };
 		49DF42EF1BE34C00005CE1A8 /* CarInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarInformation.h; sourceTree = "<group>"; };
@@ -50,9 +53,6 @@
 		49E730AB1BE2FA8000E343E5 /* RKDropdownAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKDropdownAlert.m; sourceTree = "<group>"; };
 		49E730AD1BE330B500E343E5 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		49E730AE1BE330B500E343E5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		49E730B21BE3318A00E343E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		49E730B31BE3318A00E343E5 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
-		49E730B41BE3318A00E343E5 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		49EBE2651BDC27E200CA04B0 /* R2Hot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = R2Hot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EBE2691BDC27E200CA04B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49EBE26A1BDC27E200CA04B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,8 +66,6 @@
 		49EBE27E1BDC27E300CA04B0 /* R2HotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = R2HotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EBE2831BDC27E300CA04B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49EBE2841BDC27E300CA04B0 /* R2HotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R2HotTests.m; sourceTree = "<group>"; };
-		49EBE28E1BDC2AC500CA04B0 /* ShoppingResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingResult.h; path = ../ShoppingResult.h; sourceTree = "<group>"; };
-		49EBE28F1BDC2AC500CA04B0 /* ShoppingResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingResult.m; path = ../ShoppingResult.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +104,8 @@
 		49E730B11BE3318A00E343E5 /* XMLReader */ = {
 			isa = PBXGroup;
 			children = (
-				49E730B21BE3318A00E343E5 /* README.md */,
-				49E730B31BE3318A00E343E5 /* XMLReader.h */,
-				49E730B41BE3318A00E343E5 /* XMLReader.m */,
+				49DA339D1BE4104C00F1F833 /* XMLReader.h */,
+				49DA339E1BE4104C00F1F833 /* XMLReader.m */,
 			);
 			name = XMLReader;
 			path = ../../XMLReader;
@@ -142,8 +139,8 @@
 				49EBE26D1BDC27E200CA04B0 /* AppDelegate.m */,
 				49EBE26F1BDC27E200CA04B0 /* ViewController.h */,
 				49EBE2701BDC27E200CA04B0 /* ViewController.m */,
-				49EBE28E1BDC2AC500CA04B0 /* ShoppingResult.h */,
-				49EBE28F1BDC2AC500CA04B0 /* ShoppingResult.m */,
+				49DA339C1BE4100B00F1F833 /* ShoppingResult.h */,
+				49DA339A1BE40FF200F1F833 /* ShoppingResult.m */,
 				49DD6BC21BDD9AA700A3B520 /* WebRequest.h */,
 				49DD6BC31BDD9B7400A3B520 /* WebRequest.m */,
 				49EBE2721BDC27E200CA04B0 /* Main.storyboard */,
@@ -286,14 +283,13 @@
 			files = (
 				49EBE2711BDC27E200CA04B0 /* ViewController.m in Sources */,
 				49DF42F11BE34C00005CE1A8 /* CarInformation.m in Sources */,
+				49DA339B1BE40FF200F1F833 /* ShoppingResult.m in Sources */,
 				49E730A81BE2FA7500E343E5 /* MBProgressHUD.m in Sources */,
 				49EBE26E1BDC27E200CA04B0 /* AppDelegate.m in Sources */,
-				49EBE2901BDC2AC500CA04B0 /* ShoppingResult.m in Sources */,
 				49EBE26B1BDC27E200CA04B0 /* main.m in Sources */,
 				49DF42F41BE34C21005CE1A8 /* CarDetails.m in Sources */,
 				49E730AC1BE2FA8000E343E5 /* RKDropdownAlert.m in Sources */,
-				49E730B51BE3318A00E343E5 /* README.md in Sources */,
-				49E730B61BE3318A00E343E5 /* XMLReader.m in Sources */,
+				49DA339F1BE4104C00F1F833 /* XMLReader.m in Sources */,
 				49DD6BC41BDD9B7400A3B520 /* WebRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
